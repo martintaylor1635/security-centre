@@ -1,3 +1,11 @@
 spring:
   application:
-    name: SecurityCentreEngine
+    name: Security Centre Engine
+  threads:
+    virtual:
+      enabled: true
+  mvc:
+    problemdetails:
+      enabled: true
+  main:
+    banner-mode: off
